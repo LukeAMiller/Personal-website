@@ -1,0 +1,20 @@
+/* Turn your header element into a splash page that takes up 100vw and 100vh. (Users should be able to scroll down to see the rest of your content.)
+All headings should be centered.
+Pick two fonts from Google Fonts. Apply one of them to all the heading elements and the other to all non-heading text.
+Your name should have a font size of 2em.
+The <aside> should be 35vw wide.
+The entire page should have a background color of #494949
+All text should be #f4c20c.
+The text in your footer should be centered.
+Challenge: Give your header splash page a background image of your choice. */
+header{height:130vh; width:100vw; text-align:center}
+h1{font-size:2em; font-family:'Aguafina Script'}
+h2{font-family:'Aguafina Script'}
+h3{font-family:'Great Vibes'}
+p{text-align:center;font-family: 'Aguafina Script'}
+aside{width:35vw}
+body{background-color:#494949}
+text{color:#f4c20c}
+footer{text-align:center}
+.flex-container{flex-direction:column;flex-wrap:wrap;display:flex;justify-content:center;width:30vw;padding:4rm;}
+.text-container{flex-direction:column;flex-wrap:wrap;display:flex;justify-content:center;width:30vw;padding:4rm;}
